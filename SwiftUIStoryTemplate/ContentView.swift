@@ -13,57 +13,51 @@ let backgroundGradient = LinearGradient(
 
 struct ContentView: View {
     var body: some View {
-        
-            
-            TabView {
+
                 
-                bookCover()
-                
-                Chapter1View()
-                backgroundGradient
-                    .ignoresSafeArea()
-                    .tabItem {
-                        
-                        Label("Chapter 1", systemImage: "music.mic")
-                        
-                    }
                
-                Chapter2View()
-                
-                backgroundGradient
-                    .ignoresSafeArea()                    .tabItem {
-                        Label("Chapter 2", systemImage: "music.mic")
-                      
-                        
-                    }
-                Chapter3View()
-                backgroundGradient
-                    .ignoresSafeArea()
-                    .tabItem {
-                        Label("Chapter 3", systemImage: "music.mic")
-                            
-                    }
-                Chapter4View()
-                backgroundGradient
-                    .ignoresSafeArea()
-                    .tabItem {
-                        Label("Chapter 4", systemImage: "music.mic")
-                    }
-                
-         
-                        
-                        
-                        
-                    }
+        TabView {
+            Chapter1View()
+                .tabItem {
+                    Label("Chapter 1", systemImage: "music.mic")
+                }
+           
                 
                 
-            }
+            
+            Chapter2View()
+            
+                .tabItem {
+                    Label("Chapter 2", systemImage: "music.mic")
+                    
+                    
+                }
+            Chapter3View()
+                .tabItem {
+                    Label("Chapter 3", systemImage: "music.mic")
+                    
+                }
+            Chapter4View()
+            
+                .tabItem {
+                    Label("Chapter 4", systemImage: "music.mic")
+                }
             
             
+            
+            
+            
+        }
+        
+        
+    }
         }
     
 
         
+
+                   
+
 
 #Preview {
     ContentView()
