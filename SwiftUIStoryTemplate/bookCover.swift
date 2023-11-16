@@ -13,10 +13,10 @@ struct bookCover: View {
             Image("BS")
             .resizable()
             .ignoresSafeArea()
-            .background(ignoresSafeAreaEdges: Edge .Set.bottom)
-            .imageScale(.small)
-           Spacer()
-           Spacer()
+//            .background(ignoresSafeAreaEdges: Edge .Set.bottom)
+            .imageScale(.medium)
+//           Spacer()
+//           Spacer()
         
         
           
