@@ -37,55 +37,13 @@ struct ContentView: View {
             }
 
 
-        
-        TabView  {
-          
-          
-            Chapter1View()
-                .tabItem {
-                    Label("Chapter 1", systemImage: "music.mic")
-                }
-            
-            
-            
-            
-            Chapter2View()
-            
-                .tabItem {
-                    Label("Chapter 2", systemImage: "music.mic")
-                    
-                    
-                }
-            
-            Chapter3View()
-                .tabItem {
-                    Label("Chapter 3", systemImage: "music.mic")
-                    
-                }
-            Chapter4View()
-            
-                .tabItem {
-                    Label("Chapter 4", systemImage: "music.mic")
-                }
-            
-            
-            Chapter5View()
-                .tabItem {
-                    Label("Chapter 5", systemImage: "music.mic")
-                    
-                    
-                }
-            
-            
+                
+               
+      
         }
-    }
-    
-    
-}
-    
-    
+        .tabViewStyle(.page)
+        
 
-    
-    #Preview {
-        ContentView()
- 
+#Preview {
+    ContentView()
+}
