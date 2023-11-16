@@ -7,14 +7,16 @@
 
 import SwiftUI
 struct bookCover: View {
-    var body: some View {
+  var body: some View {
      
         
             Image("BS")
             .resizable()
             .ignoresSafeArea()
-            .background(ignoresSafeAreaEdges: Edge .Set.bottom)
-            .imageScale(.small)
+//            .background(ignoresSafeAreaEdges: Edge .Set.bottom)
+            .imageScale(.medium)
+//           Spacer()
+//           Spacer()
         
         
           

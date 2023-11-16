@@ -20,6 +20,7 @@ struct Chapter4View: View {
     let org2 = "DON"
     
     var body: some View {
+
         ScrollView {
             VStack {
                 Text("After The Fame:")
@@ -105,15 +106,3 @@ struct Chapter4View: View {
             
             
         }
-    }
-}
-    
-    #Preview {
-        Chapter4View()
-    }
-    
-    //
-    //
-    //Text(" \(Lead) continues to stay in touch with his roots even after becoming wealthy and well-known. He now plays a role in a number of youth-helping organizations in the town. most known \(numberOfOrganizations) is the \(org1), \(org2) weekend, and many other as he continues to impact Detroit.")
-    
-

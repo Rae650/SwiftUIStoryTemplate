@@ -14,6 +14,7 @@ struct SwiftUIStoryTemplateApp: App {
             ContentView()
            
             Text ("")
+
         }
     }
 }
