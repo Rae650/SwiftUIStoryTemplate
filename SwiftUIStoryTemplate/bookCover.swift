@@ -7,7 +7,7 @@
 
 import SwiftUI
 struct bookCover: View {
-    var body: some View {
+  var body: some View {
      
         
             Image("BS")
@@ -15,6 +15,8 @@ struct bookCover: View {
             .ignoresSafeArea()
             .background(ignoresSafeAreaEdges: Edge .Set.bottom)
             .imageScale(.small)
+           Spacer()
+           Spacer()
         
         
           
