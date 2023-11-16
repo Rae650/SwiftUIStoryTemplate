@@ -10,10 +10,14 @@ import SwiftUI
 @main
 struct SwiftUIStoryTemplateApp: App {
     var body: some Scene {
-       WindowGroup {
+        WindowGroup {
+
+Chapter2View(mediumManager: MediaManager())
+            
+
             ContentView()
            
-            Text ("")
+         
 
         }
     }
