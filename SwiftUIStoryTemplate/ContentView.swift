@@ -24,16 +24,8 @@ var backgroundGradient = LinearGradient(
 
 struct ContentView: View {
     var body: some View {
-       
-//        @ State var BigSean: AVAudioPlayer!
-        
-       
-        
-        
-        
-        
-        
-        
+
+
         bookCover()
        
         NavigationView{
@@ -43,53 +35,15 @@ struct ContentView: View {
                 Chapter3View()
                 Chapter4View()
             }
+
+
+                
+               
+      
         }
         .tabViewStyle(.page)
         
-        //                Chapter1View()
-        //                backgroundGradient
-        //                    .ignoresSafeArea()
-        //                    .tabItem {
-        //                        Label("The early life of Big Sean", systemImage: "music.mic")
-        //
-        //                    }
-        //
-        //                Chapter2View()
-        //
-        //                    .tabItem {
-        //                        Label("The Start", systemImage: "music.mic")
-        //                        ZStack{  backgroundGradient
-        //                            .ignoresSafeArea()
-        //                        }
-        //                    }
-        //                Chapter3View()
-        //                    .tabItem {
-        //                        Label("Chapter 3", systemImage: "music.mic")
-        //
-        //                    }
-        //                Chapter4View()
-        //
-        //                    .tabItem {
-        //                        Label("Chapter 4", systemImage: "music.mic")
-        //                    }
-        //
-        //
-        //
-        //
-        //
-        //            }
-        //
-        //
-        //
-        //
-        //        }
-        //    }
-        //
-        //
-        //}
-        
-    }
-    }
+
 #Preview {
     ContentView()
 }
