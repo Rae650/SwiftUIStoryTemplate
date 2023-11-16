@@ -12,7 +12,7 @@ struct SwiftUIStoryTemplateApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-            
+           
             Text ("poooooo")
         }
     }
