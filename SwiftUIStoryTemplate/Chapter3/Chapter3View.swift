@@ -2,6 +2,7 @@ import SwiftUI
 
 struct Chapter3View: View {
     var body: some View {
+
         ScrollView {
             VStack {
                 Image("seanpic")
@@ -29,6 +30,8 @@ struct Chapter3View: View {
             }
             .padding()
         }
+
+       
     }
 }
 
