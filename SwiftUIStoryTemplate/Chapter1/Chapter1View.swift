@@ -17,6 +17,7 @@ struct Chapter1View: View {
                     Text("\(sean): The Beginning")
                         .font(.largeTitle)
                         .bold()
+                        .multilineTextAlignment(.center)
                         
                     
                     Image("BigSeanKid")

@@ -12,18 +12,20 @@ let backgroundGradient = LinearGradient(
 
 
 struct ContentView: View {
+    
     var body: some View {
-
-                
-               
-        TabView {
+        
+        
+        TabView  {
+          
+          
             Chapter1View()
                 .tabItem {
                     Label("Chapter 1", systemImage: "music.mic")
                 }
-           
-                
-                
+            
+            
+            
             
             Chapter2View()
             
@@ -32,6 +34,7 @@ struct ContentView: View {
                     
                     
                 }
+            
             Chapter3View()
                 .tabItem {
                     Label("Chapter 3", systemImage: "music.mic")
@@ -44,21 +47,24 @@ struct ContentView: View {
                 }
             
             
-            
+            Chapter5View()
+                .tabItem {
+                    Label("Chapter 5", systemImage: "music.mic")
+                    
+                    
+                }
             
             
         }
-        
-        
     }
-        }
+    
+    
+}
+    
     
 
-        
+    
+    #Preview {
+        ContentView()
+    }
 
-                   
-
-
-#Preview {
-    ContentView()
-}

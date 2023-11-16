@@ -10,10 +10,10 @@ import SwiftUI
 @main
 struct SwiftUIStoryTemplateApp: App {
     var body: some Scene {
-        WindowGroup {
+       WindowGroup {
             ContentView()
            
-            Text ("poooooo")
+            Text ("")
         }
     }
 }

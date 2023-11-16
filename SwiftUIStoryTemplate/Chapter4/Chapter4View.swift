@@ -22,9 +22,10 @@ struct Chapter4View: View {
     var body: some View {
         ScrollView {
             VStack {
-                Text("After The Fame")
+                Text("After The Fame:")
                     .font(.largeTitle)
                     .bold()
+                    .multilineTextAlignment(.center)
                 
                 
                 
@@ -94,10 +95,7 @@ struct Chapter4View: View {
                 
                 
                 
-                Text ("The community of Detroit has been positively impacted by Big Sean in so many ways. The city of Detroit would never be able to compensate \(Lead) for what he has done. It is admirable that he was able to contribute without hesitation and with such selflessness. Because of his unwavering support for Detroit through his music, organizations, and selflessness, \(Lead) deserves more recognition.")
-                
-                
-                
+        Text ("The community of Detroit has been positively impacted by Big Sean in so many ways. The city of Detroit would never be able to compensate \(Lead) for what he has done. It is admirable that he was able to contribute without hesitation and with such selflessness. Because of his unwavering support for Detroit through his music, organizations, and selflessness, \(Lead) deserves more recognition.")
                 
                 
                 
@@ -108,13 +106,14 @@ struct Chapter4View: View {
             
         }
     }
+}
     
-//    
-//    #Preview {
-//        Chapter4View()
+    #Preview {
+        Chapter4View()
     }
     
     //
     //
     //Text(" \(Lead) continues to stay in touch with his roots even after becoming wealthy and well-known. He now plays a role in a number of youth-helping organizations in the town. most known \(numberOfOrganizations) is the \(org1), \(org2) weekend, and many other as he continues to impact Detroit.")
+    
 
