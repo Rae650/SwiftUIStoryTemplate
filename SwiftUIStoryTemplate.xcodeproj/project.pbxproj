@@ -31,6 +31,7 @@
 		5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3View.swift; sourceTree = "<group>"; };
 		5DE6F6832AFAE3EF004ABB4F /* Chapter4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4View.swift; sourceTree = "<group>"; };
 		5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5View.swift; sourceTree = "<group>"; };
+		646F27942B065C12002F3217 /* cry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cry.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +73,7 @@
 				5DE6F68A2AFAE492004ABB4F /* Chapter4 */,
 				5DE6F68B2AFAE49B004ABB4F /* Chapter5 */,
 				5DE6F6732AFADF08004ABB4F /* Assets.xcassets */,
+				646F27942B065C12002F3217 /* cry.mp3 */,
 				5DE6F6752AFADF08004ABB4F /* Preview Content */,
 			);
 			path = SwiftUIStoryTemplate;
