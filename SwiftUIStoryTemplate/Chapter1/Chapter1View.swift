@@ -12,6 +12,12 @@ struct Chapter1View: View {
 
     
     var body: some View {
+
+        Text("The early life of Big Sean")
+            
+        
+        
+
                     ScrollView {
                 VStack {
                     Text("\(sean): The Beginning")
@@ -52,6 +58,7 @@ struct Chapter1View: View {
                 
             }
         }
+
     }
 
 #Preview {

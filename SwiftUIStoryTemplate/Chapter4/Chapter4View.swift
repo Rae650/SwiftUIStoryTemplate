@@ -14,6 +14,7 @@ struct Chapter4View: View {
     let org2 = "DON"
     
     var body: some View {
+
         
         ScrollView {
             VStack {
@@ -98,6 +99,7 @@ struct Chapter4View: View {
             }
             
         }
+
     }
             
         }
